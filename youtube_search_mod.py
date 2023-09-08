@@ -1,10 +1,6 @@
 import os
 import openai
 
-os.environ['OPENAI_API_KEY'] = "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"
-openai.api_key = "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" 
-
-
 from youtube_search import YoutubeSearch
 from langchain.tools import YouTubeSearchTool
 from langchain.agents import initialize_agent, Tool, AgentType
